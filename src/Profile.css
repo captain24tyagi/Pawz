@@ -1,0 +1,87 @@
+.person-tcard{
+    height: 57vh;
+    justify-content: center;
+    background-size: cover ;
+    position: relative;
+    max-width: 65vw;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px ;
+    background-image: url('https://images.hindustantimes.com/img/2022/10/23/1600x900/AP10-23-2022-000227A-0_1666546815982_1666546815982_1666546842715_1666546842715.jpg');
+    background-position: center;
+    box-shadow: 0px 18px 53px 0px  rgb(177, 116, 116);
+}
+
+.person-tcard > h3{
+    position: absolute;
+    padding-left: 10px;
+    bottom: 20px;
+    color: white;
+}
+
+.personcard-container{
+    justify-content: center;
+    display: flex;
+    margin-top: 5vh;
+    min-height: 30vh;
+}
+
+.person-whole{
+    padding-top: 50px;
+    height: 200vh;
+    background-position: cover;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQs8FDgOno4DEjXUqBT7dk3nJ0nu_O1ZMZrzQY7Ovmy_B6eajUw9XZBcFrGRF8CNitds&usqp=CAU');
+}
+
+.features-person{
+    position: relative;
+    width: 600px;
+    max-width: 65vw;
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+    background-color: bisque;
+    box-shadow: 0px 18px 53px 0px rgb(177, 116, 116);
+}
+
+.features-deepperson{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.features-contperson{
+    padding: 0px 5px 10px 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.about-person{
+    padding: 5px 5px 20px 5px;
+}
+
+.features-ind{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(244, 199, 144);
+    display: flex;
+}
+
+.features-ind1{
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(244, 199, 144);
+    display: flex;
+}
+
+.location{
+    display: flex;
+}
+
+.licon{
+    color: rgb(168, 137, 142);
+    padding-top: 20px;
+    padding-right: 10px;
+}

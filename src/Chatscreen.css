@@ -1,0 +1,58 @@
+.chatscreen{
+    background-color: pink;
+    padding: 20px;
+    height: 100vh;
+    justify-content: center;
+}
+
+.chatscreen-time{
+    text-align: center;
+    color: rgb(117, 72, 72);
+}
+
+.chatscreen-sender{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.chatscreen-user{
+    margin-left: auto;
+    text-align: right;
+}
+
+.chatmessage-text{
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+.chatmessage-usertext{
+    margin-left: auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(189, 92, 92);
+    color: white;
+}
+
+.chatscreen-form{
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgb(242, 234, 234);
+    position: fixed;
+}
+
+.chatscreen-input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+.chatbutton{
+    border: none;
+    margin-right: 20px;
+    background-color: white;
+    font-weight: bolder;
+}

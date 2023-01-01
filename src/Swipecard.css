@@ -1,0 +1,27 @@
+.swipecards{
+    display: flex;
+    position: static;
+    margin-top: 850px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.swipecards .MuiIconButton-root{
+    background-color: orange;
+}
+
+.close{
+    color: rgb(44, 34, 35) !important;
+}
+
+.fav{
+    color: rgb(211, 38, 70) !important;
+}
+
+.flash{
+    color: rgb(103, 115, 193) !important;
+}
+
+.pets{
+    color: rgb(140, 91, 91) !important;
+}
